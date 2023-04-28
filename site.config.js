@@ -7,14 +7,14 @@ const CONFIG = {
     bio: "I develop everything using node.",
     email: "jihoon7705@gmail.com",
     linkedin:
-      "https://www.linkedin.com/in/%EC%A7%80%ED%9B%88-%EC%9D%B4-432907225/",
-    github: "https://github.com/jiji-hoon96",
+      "%EC%A7%80%ED%9B%88-%EC%9D%B4-432907225/",
+    github: "jiji-hoon96",
     instagram: "",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `Panda`,
+      href: "https://panda-vert.vercel.app/",
     },
   ],
   // blog setting (required)
