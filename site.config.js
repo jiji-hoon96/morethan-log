@@ -4,12 +4,13 @@ const CONFIG = {
     name: "찌후니이",
     image: "/me.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "frontend developer",
-    bio: "I develop everything using node.",
+    bio: "안녕하세요. 최신 기술과 트렌드를 탐구하는 열정적인 프론트 엔드 개발자 이지훈입니다",
     email: "jihoon7705@gmail.com",
     linkedin:
       "%EC%A7%80%ED%9B%88-%EC%9D%B4-432907225/",
     github: "jiji-hoon96",
     instagram: "",
+    medium : "@jihoon7705"
   },
   projects: [
     {
@@ -40,13 +41,13 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: false,
+    enable: true,
     config: {
       measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
   },
   googleSearchConsole: {
-    enable: false,
+    enable: true,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
     },
