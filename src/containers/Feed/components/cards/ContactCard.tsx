@@ -5,7 +5,7 @@ import {
   AiOutlineGithub,
   AiOutlineMail,
   AiFillLinkedin,
-  AiOutlineMediumWorkmark
+  AiOutlineMediumWorkmark,
 } from "react-icons/ai"
 
 const ContactCard: React.FC = () => {
@@ -32,7 +32,7 @@ const ContactCard: React.FC = () => {
             className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
           >
             <AiOutlineMediumWorkmark className="text-2xl" />
-            <div className="text-sm">instagram</div>
+            <div className="text-sm">medium</div>
           </a>
         )}
         {CONFIG.profile.email && (
@@ -43,7 +43,7 @@ const ContactCard: React.FC = () => {
             className="overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
           >
             <AiOutlineMail className="text-2xl flex-shrink-0" />
-            <div className="text-sm">email</div>
+            <div className="text-sm">gmail</div>
           </a>
         )}
         {CONFIG.profile.linkedin && (
