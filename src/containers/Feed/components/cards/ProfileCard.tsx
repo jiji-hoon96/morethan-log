@@ -33,7 +33,11 @@ const ProfileCard: React.FC<Props> = ({ className }) => {
             {CONFIG.profile.role}
           </div>
           <div className="text-sm mb-2">
-            {splitTextByPeriod(CONFIG.profile.bio)}
+            {splitTextByPeriod(CONFIG.profile.bio)
+              .split("\n")
+              .map((item, i) => {
+                return <div key={i}>{item}</div>
+              })}
           </div>
         </div>
       </div>
