@@ -1,16 +1,15 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "찌후니이",
+    name: "이지훈",
     image: "/me.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "안녕하세요. 최신 기술과 트렌드를 탐구하는 열정적인 프론트 엔드 개발자 이지훈입니다",
+    role: "Frontend developer",
+    bio: "안녕하세요 이지훈입니다. 저는 최신 기술과 트렌드를 탐구하는 열정적인 프론트 엔드 개발자입니다. 꾸준히 배우고 활용해 오늘보다 내일이 빛나는 개발자가 되겠습니다",
     email: "jihoon7705@gmail.com",
-    linkedin:
-      "%EC%A7%80%ED%9B%88-%EC%9D%B4-432907225/",
+    linkedin: "%EC%A7%80%ED%9B%88-%EC%9D%B4-432907225/",
     github: "jiji-hoon96",
     instagram: "",
-    medium : "@jihoon7705"
+    medium: "@jihoon7705",
   },
   projects: [
     {
@@ -20,7 +19,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "jihoony blog",
+    title: "지후니네",
     description: "welcome to jihoon-log!",
     theme: "auto", // ['light', 'dark', 'auto']
   },

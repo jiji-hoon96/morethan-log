@@ -6,6 +6,19 @@ type Props = {
   className?: string
 }
 
+const splitTextByPeriod = (text: string): string => {
+  return text
+    .split(".")
+    .map((item, index, array) => {
+      if (index !== array.length - 1) {
+        return item.trim() + ".\n"
+      } else {
+        return item.trim()
+      }
+    })
+    .join("")
+}
+
 const ProfileCard: React.FC<Props> = ({ className }) => {
   return (
     <div className={className}>
@@ -19,7 +32,9 @@ const ProfileCard: React.FC<Props> = ({ className }) => {
           <div className="text-sm mb-4 text-gray-500 dark:text-gray-400">
             {CONFIG.profile.role}
           </div>
-          <div className="text-sm mb-2">{CONFIG.profile.bio}</div>
+          <div className="text-sm mb-2">
+            {splitTextByPeriod(CONFIG.profile.bio)}
+          </div>
         </div>
       </div>
     </div>
