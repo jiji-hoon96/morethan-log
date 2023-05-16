@@ -19,6 +19,10 @@ const MetaConfig: React.FC<MetaConfigProps> = ({ ...props }) => {
     <Head>
       <title>{meta.title}</title>
       <meta name="robots" content="follow, index" />
+      <meta
+        name="naver-site-verification"
+        content="77c91b31014a30e49a669c153d35b6865550915a"
+      />
       <meta charSet="UTF-8" />
       {CONFIG.seo.keywords && (
         <meta name="keywords" content={CONFIG.seo.keywords.join(", ")} />
